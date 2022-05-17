@@ -1,0 +1,1 @@
+import{d as e,c as t,w as a,_ as o,o as s,a as c}from"./index.ee8ed4dc.js";const r=c("h1",{class:"text-2xl md:text-4xl font-bold text-gray-300"},"Nothing here! Yet :)",-1),i=e({setup(n){return(_,l)=>(s(),t(o,{"vertical-center":!0},{default:a(()=>[r]),_:1}))}});export{i as default};
