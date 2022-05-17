@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { RouterLink } from "vue-router";
+import Main from "@/components/Main.vue";
 </script>
 
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-    <RouterLink to="/">go home</RouterLink>
-  </div>
+  <Main :vertical-center="true">
+    <h1 class="text-2xl md:text-4xl font-bold text-gray-300">Nothing here! Yet :)</h1>
+  </Main>
 </template>
