@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
+
+import Footer from "@/components/Footer.vue";
+import Navbar from "@/components/Navbar.vue";
 </script>
 
 <template>
-  <div class="min-h-screen">
-    <header>header</header>
-
+  <div class="app">
+    <Navbar />
     <RouterView />
-
-    <footer>footer</footer>
+    <Footer />
   </div>
 </template>
